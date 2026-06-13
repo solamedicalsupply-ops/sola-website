@@ -45,5 +45,5 @@ window.SOLA_PRODUCTS = [
   {name:'ASCE', category:'Exosome / Meso', brand:'ASCE', origin:'Korea', tag:'Exosome', image:'assets/images/product-exosome.svg'},
   {name:'Exocode', category:'Exosome / Meso', brand:'Exocode', origin:'Korea', tag:'Exosome', image:'assets/images/product-exosome.svg'},
   {name:'Exoten', category:'Exosome / Meso', brand:'Exoten', origin:'Korea', tag:'Exosome', image:'assets/images/product-exosome.svg'},
-  {name:'GTM 8%', category:'Exosome / Meso', brand:'GTM', origin:'Korea', tag:'Meso', image:'assets/images/product-exosome.svg'}
+  {name:'GTM 8%', category:'Exosome / Meso', brand:'GTM', origin:'Korea', tag:'Meso', image:'assets/images/sanPham1/gtm8.img'}
 ];
