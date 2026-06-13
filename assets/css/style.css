@@ -255,8 +255,26 @@ h2 {
 
 .hero-card {
     border-radius: 36px;
-    min-height: 430px;
-    background: linear-gradient(145deg, #0b0b0f, #351625);
+    min-height: 520px;
+
+    background:
+        linear-gradient(
+            180deg,
+            rgba(255,255,255,.05),
+            rgba(255,255,255,.02)
+        ),
+        url('assets/images/hero-cover.webp');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    box-shadow:
+        0 25px 70px rgba(255,95,162,.12);
+
+    color: #fff;
+    position: relative;
+    overflow: hidden;
     padding: 28px;
     box-shadow: var(--shadow);
     color: #fff;
@@ -264,19 +282,43 @@ h2 {
     overflow: hidden
 }
 
-.hero-card:after {
-    content: '';
-    position: absolute;
-    right: -80px;
-    top: -80px;
-    width: 240px;
-    height: 240px;
-    border-radius: 50%;
-    background: var(--pink);
-    opacity: .20;
-    filter: blur(10px)
+.hero-card::before{
+    content:'';
+    position:absolute;
+    inset:0;
+
+    background:
+    linear-gradient(
+        180deg,
+        rgba(20,10,15,.15) 0%,
+        rgba(20,10,15,.35) 100%
+    );
+
+    z-index:1;
 }
 
+.hero-card::after{
+    content:'';
+
+    position:absolute;
+    width:500px;
+    height:500px;
+
+    right:-180px;
+    top:-180px;
+
+    border-radius:50%;
+
+    background:#ff5fa2;
+
+    opacity:.12;
+
+    filter:blur(70px);
+}
+.hero-card > *{
+    position:relative;
+    z-index:2;
+}
 .hero-card img {
     border-radius: 26px;
     margin-top: 18px;

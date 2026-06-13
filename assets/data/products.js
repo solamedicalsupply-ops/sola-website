@@ -259,7 +259,7 @@ window.SOLA_PRODUCTS = [
   { name: 'Sculptra', category: 'Biostimulator', brand: 'Sculptra', origin: 'France', tag: 'Collagen Stimulator', image: 'assets/images/bestSeller/Sculptra.png', featured: true },
   { name: 'Radiesse', category: 'Biostimulator', brand: 'Radiesse', origin: 'Germany', tag: 'Biostimulator', image: 'assets/images/products/radiesse.png' },
   { name: 'Sculptra 5ml', category: 'Biostimulator', brand: 'Sculptra', origin: 'France', tag: 'Collagen Stimulator', image: 'assets/images/products/Sculptra5ml.png' },
-  { name: 'Sculptra', category: 'Biostimulator', brand: 'Sculptra', origin: 'France', tag: 'Collagen Stimulator', image: 'assets/images/products/sculptra.png' },
+  { name: 'Sculptra', category: 'Biostimulator', brand: 'Sculptra', origin: 'France', tag: 'Collagen Stimulator', image: 'assets/images/products/Sculptra1.png' },
   /* ==========================================
      other
   ========================================== */
