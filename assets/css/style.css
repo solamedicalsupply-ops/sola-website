@@ -1052,38 +1052,72 @@ th {
         height:260px;
     }
 }
-/* FORCE ABOUT SAME SCALE AS OTHER PAGES */
-body.about-page .wrap{
-    max-width:1280px !important;
+
+/* css ảnh about */
+.about-page .about-hero-content{
+    position:relative;
+    padding:50px;
+    border-radius:32px;
+    overflow:hidden;
+    min-height:420px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+
+    background:url("../images/warehouse.png") center center/cover no-repeat;
 }
 
-body.about-page .about-hero-grid{
-    grid-template-columns:1.1fr .9fr !important;
-    gap:70px !important;
+/* lớp phủ */
+.about-hero-content::before{
+    content:"";
+    position:absolute;
+    inset:0;
+
+    background:linear-gradient(
+        90deg,
+        rgba(0,0,0,.65) 0%,
+        rgba(0,0,0,.45) 40%,
+        rgba(0,0,0,.2) 100%
+    );
+
+    z-index:1;
 }
 
-body.about-page .about-panel{
-    min-height:520px !important;
-    padding:42px !important;
+/* đưa nội dung lên trên overlay */
+.about-hero-content>*{
+    position:relative;
+    z-index:2;
 }
 
-body.about-page .gallery-grid{
-    grid-template-columns:1.35fr 1fr 1fr !important;
+.about-hero-content h1,
+.about-hero-content p,
+.about-hero-content .eyebrow{
+    color:#fff;
 }
 
-body.about-page .gallery-large{
-    min-height:580px !important;
+.about-hero-content h1{
+    font-size:clamp(48px, 5vw, 76px);
+    line-height:.92;
 }
 
-body.about-page .gallery-card{
-    min-height:280px !important;
+.about-hero-content::before{
+    background:linear-gradient(
+        90deg,
+        rgba(0,0,0,.72) 0%,
+        rgba(0,0,0,.52) 45%,
+        rgba(0,0,0,.18) 100%
+    );
 }
 
-body.about-page .process-showcase,
-body.about-page .trust-band{
-    padding:58px !important;
+.about-page .about-hero-content,
+.about-page .about-panel{
+    min-height:590px;
 }
 
-body.about-page section{
-    padding:90px 0 !important;
+.about-page .about-hero{
+    padding:70px 0 70px;
+}
+
+.about-page .about-hero-grid{
+    align-items:stretch;
 }
