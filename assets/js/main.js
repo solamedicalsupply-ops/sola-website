@@ -92,7 +92,13 @@ function setupFilters() {
   if (!cat && !brand && !search) return;
 
   if (cat) cat.innerHTML = categories(allProducts).map(c => `<option>${c}</option>`).join('');
-  if (brand) brand.innerHTML = brands(allProducts).map(b => `<option>${b}</option>`).join('');
+  if (brand) {
+    brand.innerHTML = brands().map(b =>
+        `<option value="${b}">${b}</option>`
+    ).join('');
+
+    brand.value = 'All';
+}
 
   function apply() {
     const q = (search?.value || '').toLowerCase().trim();
