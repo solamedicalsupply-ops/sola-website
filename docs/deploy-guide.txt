@@ -1,0 +1,13 @@
+NETLIFY QUICK DEPLOY
+1. Open app.netlify.com
+2. Add new site -> Deploy manually
+3. Drag the entire sola_ultimate_site folder
+4. After deploy, connect your custom domain
+
+VERCEL QUICK DEPLOY
+1. Push this folder to GitHub
+2. Open vercel.com -> Add New Project
+3. Import repo -> Deploy
+
+IMPORTANT
+Upload the folder that contains index.html at the root.
