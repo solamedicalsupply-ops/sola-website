@@ -152,7 +152,6 @@ window.SOLA_PRODUCTS = [
 { name: 'Sedy Fill', category: 'Body Filler', brand: 'Sedy Fill', origin: 'Korea', tag: 'Body Filler', image: 'assets/images/bestSeller/sedyFill.png', featured: true },
 { name: 'Gouri', category: 'Biostimulator', brand: 'Gouri', origin: 'Korea', tag: 'Biostimulator', image: 'assets/images/products/gouri.png' },
 { name: 'France Body', category: 'Body Filler', brand: 'France Body', origin: '', tag: 'Body Filler', image: 'assets/images/products/franceBody.png' },
-{ name: 'Sedy Fill', category: 'Body Filler', brand: 'Sedy Fill', origin: 'Korea', tag: 'Body Filler', image: 'assets/images/bestSeller/sedyFill.png', featured: true },
 { name: 'Jariot Body', category: 'Body Filler', brand: 'Jariot', origin: 'Korea', tag: 'Body Filler', image: 'assets/images/products/jariotBody.png' },
 { name: 'Helios Body', category: 'Body Filler', brand: 'Helios', origin: 'Korea', tag: 'Body Filler', image: 'assets/images/products/heliosBody.png' },
 { name: 'Helios VIP', category: 'Body Filler', brand: 'Helios', origin: 'Korea', tag: 'Body Filler', image: 'assets/images/products/heliosVip.png' },

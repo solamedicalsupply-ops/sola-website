@@ -17,6 +17,76 @@
 </head>
 
 <body>
+<style>
+    .hero{
+        padding:80px 0 50px;
+    }
+    
+    .wrap{
+        max-width:1380px;
+    }
+    
+    .hero-grid{
+        display:grid;
+        grid-template-columns:.9fr 1.1fr;
+        align-items:center;
+        gap:70px;
+    }
+    
+    .hero h1{
+        font-size:72px;
+        line-height:.95;
+    }
+    
+    .hero-catalog-card{
+        width:100%;
+        max-width:800px;
+        margin-left:auto;
+        padding:14px;
+        border-radius:30px;
+        background:rgba(255,255,255,.82);
+        border:1px solid rgba(255,255,255,.95);
+        box-shadow:
+            0 30px 80px rgba(255,95,162,.18),
+            0 8px 30px rgba(15,23,42,.08);
+    }
+    
+    .hero-catalog-card img{
+        width:100%;
+        display:block;
+        border-radius:22px;
+    }
+    @media (max-width:768px){
+    .hero{
+        padding:55px 0 80px;
+    }
+
+    .hero-grid{
+        grid-template-columns:1fr;
+        gap:32px;
+    }
+
+    .hero h1{
+        font-size:44px;
+        line-height:1;
+    }
+
+    .hero-catalog-card{
+        max-width:100%;
+        margin:0;
+        padding:10px;
+        border-radius:24px;
+    }
+
+    .hero-catalog-card img{
+        border-radius:18px;
+    }
+
+    body{
+        padding-bottom:90px;
+    }
+}
+    </style>
     <div class="topbar">
         <div class="wrap"><span>B2B aesthetic & medical beauty supply</span><b>WhatsApp: +84 376 886 575</b></div>
     </div>
@@ -38,7 +108,9 @@
                 <div class="hero-actions"><a class="btn primary" href="products.html">Open Products</a><a class="btn"
                         data-wa target="_blank">Request PDF Catalogue</a></div>
             </div>
-            <div><img src="assets/images/catalogue-cover.svg" alt="SOLA catalogue cover"></div>
+            <div class="hero-catalog-card">
+                <img src="assets/images/solaCatalog.png" alt="SOLA catalogue cover">
+            </div>
         </div>
     </section>
     <section>
