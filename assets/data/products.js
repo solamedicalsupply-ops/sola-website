@@ -16,7 +16,6 @@ window.SOLA_PRODUCTS = [
   { name: 'White Fill Pro', category: 'Dermal Fillers', brand: 'White Fill Pro', origin: 'Korea', tag: 'Filler', image: 'assets/images/products/whiteFillPro.png' },
   { name: 'Teoxane', category: 'Dermal Fillers', brand: 'Teoxane', origin: 'Switzerland', tag: 'Filler', image: 'assets/images/products/teoxane.png' },
   { name: 'Restylane Lyft', category: 'Dermal Fillers', brand: 'Restylane', origin: 'Sweden', tag: 'Filler', image: 'assets/images/products/restylaneLyft.png' },
-  { name: 'Juvederm Volbella', category: 'Dermal Fillers', brand: 'Juvederm', origin: 'France', tag: 'Filler', image: 'assets/images/products/juvedermVolbella.png' },
   { name: 'Juvederm Volift', category: 'Dermal Fillers', brand: 'Juvederm', origin: 'France', tag: 'Filler', image: 'assets/images/products/juvedermVolift.png' },
 
   { name: 'Juvederm Volux', category: 'Dermal Fillers', brand: 'Juvederm', origin: 'France', tag: 'Filler', image: 'assets/images/products/juvedermVolux.png' },
