@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER = '84376886575';
+const WHATSAPP_NUMBER = '84981778670';
 
 const $ = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => [...r.querySelectorAll(s)];
