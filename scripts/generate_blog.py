@@ -99,41 +99,52 @@ OUTPUT — return ONLY a valid JSON object (no markdown fences, no commentary):
 # ── HTML builders ─────────────────────────────────────────────────────────────
 YEAR = datetime.now().year
  
-NAV = """  <header>
-    <div class="top-bar">
-      <span>B2B aesthetic &amp; medical beauty supply</span>
-      <strong>WhatsApp: +84 98 177 86 70</strong>
+NAV = """  <div class="topbar">
+    <div class="wrap"><span>B2B aesthetic &amp; medical beauty supply</span><b>WhatsApp: +84 98 177 86 70</b></div>
+  </div>
+  <nav class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="/index.html"><span class="logo"><img src="/assets/icons/logoNgang.png" alt="SOLA Medical Supply"></span></a>
+      <div class="links">
+        <a class="" href="/index.html">Home</a>
+        <a class="" href="/products.html">Products</a>
+        <a class="" href="/brands.html">Brands</a>
+        <a class="" href="/catalogue.html">Catalogue</a>
+        <a class="" href="/shipping.html">Shipping</a>
+        <a class="" href="/about.html">About</a>
+        <a class="" href="/faq.html">FAQ</a>
+        <a class="active" href="/blog/index.html">Blog</a>
+        <a class="" href="/contact.html">Contact</a>
+      </div>
+      <a class="btn primary" href="https://wa.me/84981778670" target="_blank">Get quote</a>
     </div>
-    <nav class="main-nav">
-      <a href="/index.html" class="nav-logo">
-        <img src="/assets/icons/logoNgang.png" alt="SOLA Medical Supply" height="40">
-      </a>
-      <div class="nav-links">
-        <a href="/index.html">Home</a>
-        <a href="/products.html">Products</a>
-        <a href="/brands.html">Brands</a>
-        <a href="/catalogue.html">Catalogue</a>
-        <a href="/shipping.html">Shipping</a>
-        <a href="/about.html">About</a>
-        <a href="/faq.html">FAQ</a>
-        <a href="/blog/index.html">Blog</a>
-        <a href="/contact.html">Contact</a>
-      </div>
-      <a href="https://wa.me/84981778670" class="btn-primary">Get quote</a>
-    </nav>
-  </header>"""
+  </nav>"""
  
-FOOTER = f"""  <footer>
-    <div class="footer-content">
-      <p>SOLA Medical Supply — Premium B2B aesthetic and medical beauty wholesale supply for clinics, spas, resellers and distributors.</p>
-      <div class="footer-links">
-        <a href="/products.html">Products</a> ·
-        <a href="/brands.html">Brands</a> ·
-        <a href="/about.html">About</a> ·
-        <a href="/blog/index.html">Blog</a> ·
-        <a href="/contact.html">Contact</a>
+FOOTER = f"""  <footer class="footer">
+    <div class="wrap footer-inner">
+      <a class="brand" href="/index.html"><span class="logo"><img src="/assets/icons/logoNgang.png" alt="SOLA Medical Supply"></span></a>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h4>Products</h4>
+          <a href="/products.html">Catalogue</a>
+          <a href="/brands.html">Brands</a>
+          <a href="/catalogue.html">PDF Catalogue</a>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <a href="/about.html">About</a>
+          <a href="/shipping.html">Shipping</a>
+          <a href="/faq.html">FAQ</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <p>WhatsApp: +84 98 177 86 70</p>
+          <p>Email: sales@solamedicalsupply.com</p>
+        </div>
       </div>
-      <p class="footer-copy">© {YEAR} SOLA Medical Supply</p>
+    </div>
+    <div class="footer-bottom">
+      <div class="wrap">© {YEAR} SOLA Medical Supply</div>
     </div>
   </footer>"""
  
