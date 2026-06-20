@@ -202,7 +202,7 @@ def build_post_page(post_data: dict, date_str: str, slug: str) -> str:
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://www.solamedicalsupply.com/blog/{slug}.html">
   <link rel="canonical" href="https://www.solamedicalsupply.com/blog/{slug}.html">
-  <link rel="icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets/icons/logo.png">
   <link rel="stylesheet" href="../assets/css/style.css">
   {POST_STYLE}
 </head>
