@@ -104,7 +104,7 @@ NAV = """  <div class="topbar">
   </div>
   <nav class="nav">
     <div class="wrap nav-inner">
-      <a class="brand" href="/index.html"><span class="logo"><img src="/assets/icons/logoNgang.png" alt="SOLA Medical Supply" style="height:65px;width:auto;"></span></a>
+      <a class="brand" href="/index.html"><span class="logo"><img src="/assets/icons/logoNgang.png" alt="SOLA Medical Supply" style="width:150px;"></span></a>
       <div class="links">
         <a class="" href="/index.html">Home</a>
         <a class="" href="/products.html">Products</a>
@@ -120,33 +120,37 @@ NAV = """  <div class="topbar">
     </div>
   </nav>"""
  
-FOOTER = f"""  <footer class="footer">
-    <div class="wrap footer-inner">
-      <a class="brand" href="/index.html"><span class="logo"><img src="/assets/icons/logoNgang.png" alt="SOLA Medical Supply"></span></a>
-      <div class="footer-cols">
-        <div class="footer-col">
-          <h4>Products</h4>
-          <a href="/products.html">Catalogue</a>
-          <a href="/brands.html">Brands</a>
-          <a href="/catalogue.html">PDF Catalogue</a>
+FOOTER = f"""      <footer class="footer">
+        <div class="wrap footer-grid">
+            <div>
+                <a class="brand" href="index.html">
+                    <span>SOLA Medical Supply</span>
+                </a>
+                <p>Premium B2B aesthetic and medical beauty wholesale supply for clinics, spas, resellers and
+                    distributors.</p>
+            </div>
+            <div>
+                <h4>Products</h4>
+                <a href="products.html">Catalogue</a><br>
+                <a href="brands.html">Brands</a><br>
+                <a href="catalogue.html">PDF Catalogue</a>
+            </div>
+            <div>
+                <h4>Company</h4>
+                <a href="about.html">About</a><br>
+                <a href="shipping.html">Shipping</a><br>
+                <a href="faq.html">FAQ</a>
+            </div>
+            <div>
+                <h4>Contact</h4>
+                <p>
+                    WhatsApp: +84 98 177 86 70<br>
+                    Email: sales@solamedicalsupply.com<br>
+                    Markets: Malaysia, Philippines, Mexico, USA, Sweden, Myanmar, Uzbekistan & selected global markets
+                </p>
+            </div>
         </div>
-        <div class="footer-col">
-          <h4>Company</h4>
-          <a href="/about.html">About</a>
-          <a href="/shipping.html">Shipping</a>
-          <a href="/faq.html">FAQ</a>
-        </div>
-        <div class="footer-col">
-          <h4>Contact</h4>
-          <p>WhatsApp: +84 98 177 86 70</p>
-          <p>Email: sales@solamedicalsupply.com</p>
-        </div>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <div class="wrap">© {YEAR} SOLA Medical Supply</div>
-    </div>
-  </footer>"""
+    </footer>"""
  
 POST_STYLE = """
     <style>
