@@ -104,7 +104,7 @@ NAV = """  <div class="topbar">
   </div>
   <nav class="nav">
     <div class="wrap nav-inner">
-      <a class="brand" href="/index.html"><span class="logo"><img src="/assets/icons/logoNgang.png" alt="SOLA Medical Supply"></span></a>
+      <a class="brand" href="/index.html"><span class="logo"><img src="/assets/icons/logoNgang.png" alt="SOLA Medical Supply" style="height:45px;width:auto;"></span></a>
       <div class="links">
         <a class="" href="/index.html">Home</a>
         <a class="" href="/products.html">Products</a>
