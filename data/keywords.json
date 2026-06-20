@@ -5,15 +5,25 @@
       "title": "Where to Source Wholesale Dermal Fillers in Malaysia: A B2B Buyer's Guide",
       "category": "Dermal Filler",
       "audience": "clinic owners, aesthetic doctors, distributors in Malaysia",
-      "lsi": ["hyaluronic acid supplier Malaysia", "filler distributor KL", "aesthetic clinic wholesale Malaysia"],
-      "status": "pending"
+      "lsi": [
+        "hyaluronic acid supplier Malaysia",
+        "filler distributor KL",
+        "aesthetic clinic wholesale Malaysia"
+      ],
+      "status": "done",
+      "slug": "wholesale-dermal-filler-malaysia-b2b-buyers-guide",
+      "published": "June 20, 2026"
     },
     {
       "keyword": "botox supplier Malaysia B2B",
       "title": "How to Find a Reliable Botox Supplier in Malaysia for Your Clinic",
       "category": "Botox / Toxin",
       "audience": "clinic owners, aesthetic practitioners in Malaysia",
-      "lsi": ["botulinum toxin wholesale Malaysia", "toxin distributor Malaysia", "aesthetic supplier KL"],
+      "lsi": [
+        "botulinum toxin wholesale Malaysia",
+        "toxin distributor Malaysia",
+        "aesthetic supplier KL"
+      ],
       "status": "pending"
     },
     {
@@ -21,7 +31,11 @@
       "title": "Top Mesotherapy Products for Malaysian Aesthetic Clinics",
       "category": "Mesotherapy",
       "audience": "aesthetic doctors, clinic owners looking for meso suppliers",
-      "lsi": ["meso cocktail wholesale Malaysia", "skin booster supplier Malaysia", "meso distributor Malaysia"],
+      "lsi": [
+        "meso cocktail wholesale Malaysia",
+        "skin booster supplier Malaysia",
+        "meso distributor Malaysia"
+      ],
       "status": "pending"
     },
     {
@@ -29,7 +43,11 @@
       "title": "Wholesale Glutathione IV Drip Suppliers in Malaysia: A Clinic Buyer's Guide",
       "category": "IV Whitening",
       "audience": "clinic owners, drip lounge operators in Malaysia",
-      "lsi": ["skin whitening injection supplier Malaysia", "IV whitening wholesale", "vitamin C IV supplier Malaysia"],
+      "lsi": [
+        "skin whitening injection supplier Malaysia",
+        "IV whitening wholesale",
+        "vitamin C IV supplier Malaysia"
+      ],
       "status": "pending"
     },
     {
@@ -37,9 +55,22 @@
       "title": "Fat Dissolving Injections Wholesale Malaysia: Sourcing Guide for Aesthetic Clinics",
       "category": "Body Contouring",
       "audience": "slimming clinic owners, aesthetic doctors in Malaysia",
-      "lsi": ["lipolysis injection wholesale Malaysia", "body contouring products Malaysia", "deoxycholic acid supplier Malaysia"],
+      "lsi": [
+        "lipolysis injection wholesale Malaysia",
+        "body contouring products Malaysia",
+        "deoxycholic acid supplier Malaysia"
+      ],
       "status": "pending"
     }
   ],
-  "posts": []
+  "posts": [
+    {
+      "title": "Where to Source Wholesale Dermal Fillers in Malaysia: A B2B Buyer's Guide",
+      "slug": "wholesale-dermal-filler-malaysia-b2b-buyers-guide",
+      "date": "June 20, 2026",
+      "excerpt": "Sourcing wholesale dermal fillers in Malaysia requires more than finding the lowest price. This B2B guide covers NPRA and KKM compliance, cold chain logistics, product certification, quality evaluation, and pricing — helping clinic owners, aesthetic doctors, and distributors make smarter, safer procurement decisions with a trusted wholesale partner.",
+      "read_time": "7 min read",
+      "category": "Dermal Filler"
+    }
+  ]
 }
