@@ -1,9 +1,11 @@
 name: Auto SEO Blog Post
  
 on:
-  schedule:
-    # Runs Mon & Thu at 1:00 AM UTC = 8:00 AM UTC+7 (Vietnam/Malaysia time)
-    - cron: '0 1 * * 1,4'
+schedule:
+  - cron: '0 1 * * *'   # Chạy mỗi ngày lúc 8am
+  - cron: '0 3 * * *'   # 10am
+  - cron: '0 5 * * *'   # 12pm
+  - cron: '0 9 * * *'   # 4pm
   workflow_dispatch: # Allow manual trigger from GitHub Actions UI
  
 jobs:
